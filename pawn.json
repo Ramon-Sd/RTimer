@@ -1,0 +1,13 @@
+{
+	"user": "Ramon-Sd",
+	"repo": "RTimer",
+	"tag": "1.0.0",
+	"entry": "test.pwn",
+	"output": "test.amx",
+	"dependencies": [
+		"pawn-lang/samp-stdlib"
+	],
+	"runtime": {
+		"mode": "y_testing"
+	}
+}
