@@ -1,44 +1,51 @@
-[![samp-include](https://img.shields.io/badge/SAMP_|-INCLUDE-5C2D91.svg?style=for-the-badge)](https://github.com/Ramon-Sd/RTimer)
+[![samp-include](https://img.shields.io/badge/sa--mp-library-2f2f2f.svg?style=for-the-badge)](https://github.com/Ramon-Sd/RTimer)
 
-<br><br>
-<p align="left">
-  <a href="https://www.sa-mp.com/">
-    <img src="https://www.sa-mp.com/images/logo.gif" width="500" alt="SAMP Logo">
-  </a>
-</p>
+<img src="https://www.sa-mp.com/images/logo.gif" width="450" alt="SAMP Logo">
 
-<br><br>
+> Library for easy timer use
 
-# ―――――――――――――――
+<br>
 
-<br><br>
+1. [Installation](#-Installation)
 
+2. [Documentation](#-Documentation)
+
+<br>
+
+## 🚀 Installation
+
+You can install the "RTimer" library in two ways:
+
+- Using sampctl: You can install the library using the sampctl package manager. Simply run the following command in the terminal:
 ```bash
 sampctl package install Ramon-Sd/RTimer
 ```
 
+- Using Git: You can clone the library's Git repository and manually add it to your project. Run the following command in the terminal:
 ```bash
 git clone https://github.com/Ramon-Sd/RTimer.git
 ```
 
-# ―――――――――――――――
-<br>
+Then, include the "RTimer.inc" include file in your code:
 
 ```pawn
-// Natives :
-
-native Timer_Set(const funcname[], interval, repeating);
-
-native Timer_SetEx(const funcname[], interval, repeating, const format[], {Float,_}:...);
-
-native Timer_Get(const funcname[]);
-
-native Timer_Kill(const funcname[]);
-
+#include "RTimer.inc"
 ```
 
+## ☕ Documentation
+
+## **Functions**
+
+- ...
+
+## **Callbacks**
+
+- ...
+
+### **Example**
+
+
 ```pawn
-// Example :
 
 #include "RTimer.inc"
 
@@ -67,5 +74,10 @@ main() {
 }
 
 ```
+
+<br><br>
+
+This project is licensed. See the [LICENSE](LICENSE.md) file for more details.
+
 
 
